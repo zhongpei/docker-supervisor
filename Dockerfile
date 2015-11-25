@@ -11,7 +11,4 @@ RUN apt-get update \
 
 RUN service supervisor stop
 
-# Set the time zone to the local time zone
-RUN echo "Asia/Shanghai" > /etc/timezone && dpkg-reconfigure --frontend noninteractive tzdata
-
 CMD supervisord -c /etc/supervisord.conf -n

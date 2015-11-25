@@ -1,8 +1,12 @@
 # docker-supervisor
-supervisor
 
+## Usage
 
-run as
-'''
-docker run -v $(PWD)/supervisord.conf:/etc/supervisord.conf   zhongpei/supervisor
-'''
+###first
+
+write your supervisord.conf
+
+###run it
+```sh
+docker run -d -v $(PWD)/supervisord.conf:/etc/supervisord.conf   zhongpei/supervisor
+```
