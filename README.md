@@ -2,9 +2,9 @@
 
 ## Usage
 
-###first
+###supervisord.conf
 
-write your supervisord.conf
+modify your `supervisord.conf`
 
 ###run it
 ```sh
